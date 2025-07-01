@@ -29,7 +29,7 @@ for index, value in enumerate(fruits):
     print(f"Index {index} -> {value}")
 
 # 6. Use with else: Run after loop finishes
-for i in range(3):
+for i in range(1 , 4):
     print(f"Looping: {i}")
 else:
     print("FOR loop completed.")
