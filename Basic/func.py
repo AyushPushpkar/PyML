@@ -21,4 +21,16 @@ numbers = [1, 2, 3]
 add_item(numbers)
 print("Outside function:", numbers)
 
-print(add_item(numbers))
+# print(add_item(numbers))
+
+def multiply(*nums):
+    res = 1
+    for num in nums :
+        res *= num
+
+    return res
+
+print(multiply(2,3,4))   
+
+
+

@@ -1,6 +1,7 @@
 # Creating a set
 fruits = {"apple", "banana", "cherry"}
 print(fruits)
+len(fruits)
 
 # Adding an element
 fruits.add("orange")
