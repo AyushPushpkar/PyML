@@ -1,10 +1,10 @@
 
 def check():
-    word = "boss"
+    word = "append"
     data = True
     line = 1 
 
-    with open("samle" , "r") as f :
+    with open("write_example.txt" , "r") as f :
         while data :
             data = f.readline()
             if(word in data) :

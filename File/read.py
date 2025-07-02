@@ -1,4 +1,4 @@
-file = open("sample.txt", "r")  # Step 1: Open
+file = open("write_example.txt", "r")  # Step 1: Open
 
 content = file.read()           # Step 2: Read
 print(content)
