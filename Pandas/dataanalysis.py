@@ -28,18 +28,6 @@ try:
 
     country_summary['Total'].plot(kind= 'bar' ,figsize = (8,4) , title = 'Total sales by country')
 
-    country_summary.plot(
-        kind='pie',
-        y='Total',
-        autopct='%1.1f%%',
-        figsize=(8, 8),
-        legend=False,
-        title='Sales Distribution by Country',
-        subplots=True
-    )
 
-    plt.ylabel('')
-    plt.tight_layout()
-    plt.show()
 except Exception as e:
     print("❌ Error :", e)
