@@ -45,3 +45,5 @@ range_array = np.arange(0, 10, 2)  # [0, 2, 4, 6, 8]
 random_array = np.random.rand(2, 3)  # 2x3 array with values in [0, 1)
 
 linspace_array = np.linspace(0,2,5) # Generates num evenly spaced values between start and stop, inclusive.
+
+randint = np.random.randint(3, 10 , (2,3)) # between 2 and 3 , 2x3 matrix
