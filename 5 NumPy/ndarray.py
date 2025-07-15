@@ -47,3 +47,9 @@ random_array = np.random.rand(2, 3)  # 2x3 array with values in [0, 1)
 linspace_array = np.linspace(0,2,5) # Generates num evenly spaced values between start and stop, inclusive.
 
 randint = np.random.randint(3, 10 , (2,3)) # between 2 and 3 , 2x3 matrix
+
+arr = np.array([1, 2, 3, 4])
+weights = np.array([1, 1, 1, 2])
+
+avg_val = np.average(arr, weights=weights)  # Output: 2.8
+mean_val = np.mean(arr)  # Output: 2.5

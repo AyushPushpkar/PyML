@@ -28,6 +28,10 @@ for i in range(3):
 for index, value in enumerate(fruits):
     print(f"Index {index} -> {value}")
 
+# The enumerate() function adds a counter to an iterable (like a list or tuple) and returns it 
+# as an enumerate object, which you can loop through.
+#enumerate(iterable, start=0)
+
 # 6. Use with else: Run after loop finishes
 for i in range(1 , 4):
     print(f"Looping: {i}")
